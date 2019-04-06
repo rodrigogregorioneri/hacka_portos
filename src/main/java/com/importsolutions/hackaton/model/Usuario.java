@@ -1,15 +1,13 @@
 package com.importsolutions.hackaton.model;
 
-import java.time.LocalDateTime;
-
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 import lombok.Data;
 
-@Document(collection = "apontamento")
+@Document(collection = "usuario")
 @Data
-public class Apontamento {
+public class Usuario {
 	
 	@Id
 	private String id;
@@ -20,8 +18,7 @@ public class Apontamento {
 	
 	private String cargo;
 	
-	private LocalDateTime horario_entrada;
+	private String perfil;
 	
-	private LocalDateTime horario_saida;
 	
 }
