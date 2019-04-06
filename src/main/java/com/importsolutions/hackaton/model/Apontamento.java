@@ -18,6 +18,8 @@ public class Apontamento {
 	
 	private String matricula;
 	
+	private String cargo;
+	
 	private LocalDateTime horario_entrada;
 	
 	private LocalDateTime horario_saida;
