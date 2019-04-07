@@ -18,7 +18,7 @@ public class Modulo {
     @GenericGenerator(name = "uuid2", strategy = "uuid2")
     @Column(name = "id", columnDefinition = "BINARY(16)")
 	
-	private String nome;
+	private String nome_modulo;
 	
 	private String conteudo;
 	
