@@ -22,6 +22,8 @@ public class Modulo {
 	
 	private String conteudo;
 	
+	private String titulo;
+	
 	private Form formulario;
 
 }
